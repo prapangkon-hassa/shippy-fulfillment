@@ -1,0 +1,338 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=e3]:
+    - text: Everyday essentials. Thoughtfully selected.
+    - generic [ref=e4]: Free shipping on orders ฿3,000+
+  - banner [ref=e5]:
+    - generic [ref=e6]:
+      - link "form . E-COMMERCE & FULFILLMENT" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - text: form
+        - generic [ref=e12]: .
+        - generic [ref=e13]: E-COMMERCE & FULFILLMENT
+      - navigation "Main navigation" [ref=e14]:
+        - link "Home" [ref=e15] [cursor=pointer]:
+          - /url: /
+        - link "Products" [ref=e16] [cursor=pointer]:
+          - /url: /#catalog
+        - link "My Orders" [ref=e17] [cursor=pointer]:
+          - /url: /orders
+      - generic [ref=e18]:
+        - button "Search products" [ref=e19] [cursor=pointer]
+        - link "Cart, 0 items" [ref=e23] [cursor=pointer]:
+          - /url: /cart
+          - generic [ref=e27]: "0"
+        - group [ref=e28]:
+          - generic "Account menu" [ref=e29] [cursor=pointer]: AM
+  - main [ref=e33]:
+    - generic [ref=e34]:
+      - generic [ref=e35]:
+        - generic [ref=e36]:
+          - text: THE EVERYDAY COLLECTION
+          - heading "Good things. For your everyday." [level=1] [ref=e37]: Good things.For your everyday.
+          - paragraph [ref=e38]: Discover thoughtful essentials for the way you live, work, and make yourself at home.
+          - link "Explore the collection" [ref=e39] [cursor=pointer]:
+            - /url: "#catalog"
+          - generic [ref=e42]: Small details. A better everyday.
+        - generic [aria-hidden] [ref=e43]:
+          - generic [ref=e45]: Considered design.Everyday value.
+          - generic [ref=e47]: Made for your daily rhythm
+      - region "Shopping benefits" [ref=e50]:
+        - generic [ref=e57]:
+          - generic [ref=e58]: A little less on delivery
+          - text: Free shipping on orders ฿3,000+
+        - generic [ref=e63]:
+          - generic [ref=e64]: Shop with confidence
+          - text: Thoughtfully selected merchants
+        - generic [ref=e71]:
+          - generic [ref=e72]: With you, all the way
+          - text: Track every step of your order
+      - generic [ref=e73]:
+        - generic [ref=e74]:
+          - generic [ref=e75]:
+            - text: FIND YOUR NEXT FAVORITE
+            - heading "Explore our products." [level=2] [ref=e76]
+          - paragraph [ref=e77]: The essentials, and a little inspiration.
+        - generic "Product categories" [ref=e78]:
+          - button "All products" [ref=e79] [cursor=pointer]
+          - button "Electronics" [ref=e82] [cursor=pointer]
+          - button "Accessories" [ref=e85] [cursor=pointer]
+          - button "Clothing" [ref=e89] [cursor=pointer]
+          - button "Home & Living" [ref=e92] [cursor=pointer]
+        - generic [ref=e96]:
+          - textbox "Search products" [ref=e101]:
+            - /placeholder: Search for something good…
+          - combobox "Filter by merchant" [ref=e104] [cursor=pointer]:
+            - option "All merchants" [selected]
+            - option "TechHub Store"
+            - option "Everyday Market"
+            - option "Urban Goods"
+          - generic [ref=e105]:
+            - generic [ref=e106]: "Sort:"
+            - combobox "Sort products" [ref=e107] [cursor=pointer]:
+              - option "Featured" [selected]
+              - 'option "Price: low to high"'
+              - 'option "Price: high to low"'
+        - generic [ref=e108]:
+          - generic [ref=e109]: Showing 12 products
+          - generic [ref=e110]: Good finds. Fair prices.
+        - generic [ref=e111]:
+          - article [ref=e112]:
+            - link "Studio Wireless Headphones Bestseller" [ref=e113] [cursor=pointer]:
+              - /url: /products/p1
+              - img "Studio Wireless Headphones" [ref=e114]
+              - generic [ref=e115]: Bestseller
+            - generic [ref=e119]:
+              - generic [ref=e120]:
+                - generic [ref=e121]: Electronics
+                - generic "4 out of 5 stars" [ref=e122]:
+                  - generic [ref=e125]: "4.0"
+                  - generic [ref=e126]: (2)
+              - link [ref=e127] [cursor=pointer]:
+                - /url: /products/p1
+                - heading "Studio Wireless Headphones" [level=3] [ref=e128]
+              - paragraph [ref=e129]: TechHub Store
+              - generic [ref=e130]:
+                - generic [ref=e131]: THB 2,490
+                - generic [ref=e132]: In stock
+              - link "View product" [ref=e133] [cursor=pointer]:
+                - /url: /products/p1
+          - article [ref=e136]:
+            - link [ref=e137] [cursor=pointer]:
+              - /url: /products/p2
+              - img "Everyday Canvas Tote" [ref=e138]
+            - generic [ref=e142]:
+              - generic [ref=e143]:
+                - generic [ref=e144]: Accessories
+                - generic "5 out of 5 stars" [ref=e145]:
+                  - generic [ref=e148]: "5.0"
+                  - generic [ref=e149]: (2)
+              - link [ref=e150] [cursor=pointer]:
+                - /url: /products/p2
+                - heading "Everyday Canvas Tote" [level=3] [ref=e151]
+              - paragraph [ref=e152]: Urban Goods
+              - generic [ref=e153]:
+                - generic [ref=e154]: THB 590
+                - generic [ref=e155]: In stock
+              - link "View product" [ref=e156] [cursor=pointer]:
+                - /url: /products/p2
+          - article [ref=e159]:
+            - link "Ceramic Everyday Mug Everyday favorite" [ref=e160] [cursor=pointer]:
+              - /url: /products/p3
+              - img "Ceramic Everyday Mug" [ref=e161]
+              - generic [ref=e162]: Everyday favorite
+            - generic [ref=e166]:
+              - generic [ref=e167]:
+                - generic [ref=e168]: Home & Living
+                - generic "5 out of 5 stars" [ref=e169]:
+                  - generic [ref=e172]: "5.0"
+                  - generic [ref=e173]: (2)
+              - link [ref=e174] [cursor=pointer]:
+                - /url: /products/p3
+                - heading "Ceramic Everyday Mug" [level=3] [ref=e175]
+              - paragraph [ref=e176]: Everyday Market
+              - generic [ref=e177]:
+                - generic [ref=e178]: THB 320
+                - generic [ref=e179]: In stock
+              - link "View product" [ref=e180] [cursor=pointer]:
+                - /url: /products/p3
+          - article [ref=e183]:
+            - link [ref=e184] [cursor=pointer]:
+              - /url: /products/p4
+              - img "Compact Mechanical Keyboard" [ref=e185]
+            - generic [ref=e189]:
+              - generic [ref=e190]:
+                - generic [ref=e191]: Electronics
+                - generic "4 out of 5 stars" [ref=e192]:
+                  - generic [ref=e195]: "4.0"
+                  - generic [ref=e196]: (1)
+              - link [ref=e197] [cursor=pointer]:
+                - /url: /products/p4
+                - heading "Compact Mechanical Keyboard" [level=3] [ref=e198]
+              - paragraph [ref=e199]: TechHub Store
+              - generic [ref=e200]:
+                - generic [ref=e201]: THB 1,890
+                - generic [ref=e202]: In stock
+              - link "View product" [ref=e203] [cursor=pointer]:
+                - /url: /products/p4
+          - article [ref=e206]:
+            - link [ref=e207] [cursor=pointer]:
+              - /url: /products/p5
+              - img "Essential Cotton Tee" [ref=e208]
+            - generic [ref=e212]:
+              - generic [ref=e213]:
+                - generic [ref=e214]: Clothing
+                - generic "5 out of 5 stars" [ref=e215]:
+                  - generic [ref=e218]: "5.0"
+                  - generic [ref=e219]: (1)
+              - link [ref=e220] [cursor=pointer]:
+                - /url: /products/p5
+                - heading "Essential Cotton Tee" [level=3] [ref=e221]
+              - paragraph [ref=e222]: Urban Goods
+              - generic [ref=e223]:
+                - generic [ref=e224]: THB 490
+                - generic [ref=e225]: In stock
+              - link "View product" [ref=e226] [cursor=pointer]:
+                - /url: /products/p5
+          - article [ref=e229]:
+            - link [ref=e230] [cursor=pointer]:
+              - /url: /products/p6
+              - img "Arc Desk Lamp" [ref=e231]
+            - generic [ref=e235]:
+              - generic [ref=e236]:
+                - generic [ref=e237]: Home & Living
+                - generic "5 out of 5 stars" [ref=e238]:
+                  - generic [ref=e241]: "5.0"
+                  - generic [ref=e242]: (1)
+              - link [ref=e243] [cursor=pointer]:
+                - /url: /products/p6
+                - heading "Arc Desk Lamp" [level=3] [ref=e244]
+              - paragraph [ref=e245]: Everyday Market
+              - generic [ref=e246]:
+                - generic [ref=e247]: THB 1,290
+                - generic [ref=e248]: In stock
+              - link "View product" [ref=e249] [cursor=pointer]:
+                - /url: /products/p6
+          - article [ref=e252]:
+            - link [ref=e253] [cursor=pointer]:
+              - /url: /products/p7
+              - img "Pocket Bluetooth Speaker" [ref=e254]
+            - generic [ref=e258]:
+              - generic [ref=e259]:
+                - generic [ref=e260]: Electronics
+                - generic "4 out of 5 stars" [ref=e261]:
+                  - generic [ref=e264]: "4.0"
+                  - generic [ref=e265]: (1)
+              - link [ref=e266] [cursor=pointer]:
+                - /url: /products/p7
+                - heading "Pocket Bluetooth Speaker" [level=3] [ref=e267]
+              - paragraph [ref=e268]: TechHub Store
+              - generic [ref=e269]:
+                - generic [ref=e270]: THB 990
+                - generic [ref=e271]: In stock
+              - link "View product" [ref=e272] [cursor=pointer]:
+                - /url: /products/p7
+          - article [ref=e275]:
+            - link [ref=e276] [cursor=pointer]:
+              - /url: /products/p8
+              - img "Minimal Everyday Watch" [ref=e277]
+            - generic [ref=e281]:
+              - generic [ref=e282]:
+                - generic [ref=e283]: Accessories
+                - generic "5 out of 5 stars" [ref=e284]:
+                  - generic [ref=e287]: "5.0"
+                  - generic [ref=e288]: (1)
+              - link [ref=e289] [cursor=pointer]:
+                - /url: /products/p8
+                - heading "Minimal Everyday Watch" [level=3] [ref=e290]
+              - paragraph [ref=e291]: Urban Goods
+              - generic [ref=e292]:
+                - generic [ref=e293]: THB 1,590
+                - generic [ref=e294]: In stock
+              - link "View product" [ref=e295] [cursor=pointer]:
+                - /url: /products/p8
+          - article [ref=e298]:
+            - link [ref=e299] [cursor=pointer]:
+              - /url: /products/p9
+              - img "Insulated Water Bottle" [ref=e300]
+            - generic [ref=e304]:
+              - generic [ref=e305]:
+                - generic [ref=e306]: Home & Living
+                - generic "5 out of 5 stars" [ref=e307]:
+                  - generic [ref=e310]: "5.0"
+                  - generic [ref=e311]: (1)
+              - link [ref=e312] [cursor=pointer]:
+                - /url: /products/p9
+                - heading "Insulated Water Bottle" [level=3] [ref=e313]
+              - paragraph [ref=e314]: Everyday Market
+              - generic [ref=e315]:
+                - generic [ref=e316]: THB 690
+                - generic [ref=e317]: In stock
+              - link "View product" [ref=e318] [cursor=pointer]:
+                - /url: /products/p9
+          - article [ref=e321]:
+            - link [ref=e322] [cursor=pointer]:
+              - /url: /products/p10
+              - img "Relaxed Cotton Overshirt" [ref=e323]
+            - generic [ref=e327]:
+              - generic [ref=e328]:
+                - generic [ref=e329]: Clothing
+                - generic "4 out of 5 stars" [ref=e330]:
+                  - generic [ref=e333]: "4.0"
+                  - generic [ref=e334]: (1)
+              - link [ref=e335] [cursor=pointer]:
+                - /url: /products/p10
+                - heading "Relaxed Cotton Overshirt" [level=3] [ref=e336]
+              - paragraph [ref=e337]: Urban Goods
+              - generic [ref=e338]:
+                - generic [ref=e339]: THB 1,190
+                - generic [ref=e340]: In stock
+              - link "View product" [ref=e341] [cursor=pointer]:
+                - /url: /products/p10
+          - article [ref=e344]:
+            - link "Laptop Sleeve 13-inch Out of stock" [ref=e345] [cursor=pointer]:
+              - /url: /products/p11
+              - img "Laptop Sleeve 13-inch" [ref=e346]
+              - generic [ref=e347]: Out of stock
+            - generic [ref=e351]:
+              - generic [ref=e352]:
+                - generic [ref=e353]: Accessories
+                - generic "5 out of 5 stars" [ref=e354]:
+                  - generic [ref=e357]: "5.0"
+                  - generic [ref=e358]: (1)
+              - link [ref=e359] [cursor=pointer]:
+                - /url: /products/p11
+                - heading "Laptop Sleeve 13-inch" [level=3] [ref=e360]
+              - paragraph [ref=e361]: TechHub Store
+              - generic [ref=e362]:
+                - generic [ref=e363]: THB 790
+                - generic [ref=e364]: Unavailable
+              - link "View product" [ref=e365] [cursor=pointer]:
+                - /url: /products/p11
+          - article [ref=e368]:
+            - link [ref=e369] [cursor=pointer]:
+              - /url: /products/p12
+              - img "Linen Cushion Cover" [ref=e370]
+            - generic [ref=e374]:
+              - generic [ref=e375]:
+                - generic [ref=e376]: Home & Living
+                - generic "5 out of 5 stars" [ref=e377]:
+                  - generic [ref=e380]: "5.0"
+                  - generic [ref=e381]: (1)
+              - link [ref=e382] [cursor=pointer]:
+                - /url: /products/p12
+                - heading "Linen Cushion Cover" [level=3] [ref=e383]
+              - paragraph [ref=e384]: Everyday Market
+              - generic [ref=e385]:
+                - generic [ref=e386]: THB 450
+                - generic [ref=e387]: In stock
+              - link "View product" [ref=e388] [cursor=pointer]:
+                - /url: /products/p12
+      - generic [ref=e391]:
+        - generic [ref=e392]:
+          - text: FROM OUR COMMUNITY
+          - heading "Great finds start with great merchants." [level=2] [ref=e393]
+          - paragraph [ref=e394]: Meet TechHub Store, Everyday Market, and Urban Goods.
+        - link "Merchant workspace" [ref=e395] [cursor=pointer]:
+          - /url: /merchant/products
+  - contentinfo [ref=e398]:
+    - generic [ref=e399]:
+      - generic [ref=e400]:
+        - link "form ." [ref=e401] [cursor=pointer]:
+          - /url: /
+          - text: form
+          - generic [ref=e402]: .
+        - paragraph [ref=e403]: Good things, made for everyday.
+      - generic [ref=e404]:
+        - link "Explore products" [ref=e405] [cursor=pointer]:
+          - /url: /#catalog
+        - link "Track your order" [ref=e406] [cursor=pointer]:
+          - /url: /orders
+        - link "Merchant panel" [ref=e407] [cursor=pointer]:
+          - /url: /merchant/products
+    - generic [ref=e411]:
+      - generic [ref=e412]: © 2026 Form · E-Commerce & Fulfillment
+      - generic [ref=e413]: University project · Frontend demo
+  - button "Open Next.js Dev Tools" [ref=e419] [cursor=pointer]
+  - alert [ref=e423]

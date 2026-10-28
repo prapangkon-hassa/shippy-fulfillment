@@ -1,0 +1,6 @@
+backend/
+database/
+tmp/
+qa/
+.env*
+.git/
